@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backgrounder", "Backgrounder\Backgrounder.csproj", "{CE6E558E-8648-4FAF-BF52-2B3C680661CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{373681C6-ADDE-490D-B56B-18416833E11A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE6E558E-8648-4FAF-BF52-2B3C680661CD} = {CE6E558E-8648-4FAF-BF52-2B3C680661CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6E558E-8648-4FAF-BF52-2B3C680661CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6E558E-8648-4FAF-BF52-2B3C680661CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6E558E-8648-4FAF-BF52-2B3C680661CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6E558E-8648-4FAF-BF52-2B3C680661CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373681C6-ADDE-490D-B56B-18416833E11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373681C6-ADDE-490D-B56B-18416833E11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373681C6-ADDE-490D-B56B-18416833E11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373681C6-ADDE-490D-B56B-18416833E11A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
